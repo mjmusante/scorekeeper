@@ -29,7 +29,6 @@ class Player:
             self.vs_opponent[op] += 10
         elif myscore == opscore:
             self.vs_opponent[op] += 5
-        print("op %s game %s -> %s to %s" % (op, game, myscore, opscore))
 
     def fmt_result(self, oplist):
         for i in oplist:
@@ -124,7 +123,6 @@ for p in plist:
         if player[p].games_vs[op] < 5:
             continue
         rslt = player[p].vs_opponent[op]
-        print("player %s r %s" % (p, rslt))
         if rslt > 25:
             wins += 1
         elif rslt < 25:
