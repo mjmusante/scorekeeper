@@ -4,7 +4,7 @@ from __future__ import print_function
 
 import sys
 
-with open("scores.txt", "r") as f:
+with open(sys.argv[1], "r") as f:
     lines = f.readlines()
 
 class Player:
@@ -130,14 +130,21 @@ for p in plist:
         else:
             ties += 1
     if wins > 0 or ties > 0 or losses > 0:
-        print("%s: " % p, end="")
+        print("%s%s: " % (" " * (pad - len(p)), p), end="")
+        match = list()
+
+        def sing_or_pl(score, sing, pl):
+            if score == 1:
+                return "%s %s" % (score, sing)
+            return "%s %s" % (score, pl)
+
         if wins > 0:
-            print("%s wins" % wins, end="")
+            match.append(sing_or_pl(wins, "win", "wins"))
         if ties > 0:
-            print("%s ties" % ties, end="")
+            match.append(sing_or_pl(ties, "tie", "ties"))
         if losses > 0:
-            print("%s losses" % losses, end="")
-        print("")
+            match.append(sing_or_pl(losses, "loss", "losses"))
+        print(", ".join(match))
 
 print("---")
 
