@@ -1,0 +1,19 @@
+p Alice
+p Bob
+p Carol
+p Darren
+g 1 Alice:1,Bob:3
+g 2 Alice:2,Bob:3
+g 3 Alice:3,Bob:3
+g 4 Alice:4,Bob:3
+g 5 Alice:5,Bob:3
+g 1 Bob:2,Carol:2
+g 2 Bob:2,Carol:2
+g 3 Bob:2,Carol:2
+g 4 Bob:2,Carol:2
+g 5 Bob:2,Carol:2
+g 1 Carol:10,Darren:3
+g 2 Carol:10,Darren:3
+g 3 Carol:10,Darren:3
+g 4 Carol:10,Darren:3
+g 5 Carol:10,Darren:3
