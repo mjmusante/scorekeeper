@@ -1,0 +1,8 @@
+p GoofAndAHalf
+p jczorkmid
+p mistyg
+p sgranade
+p Tamsk
+p zarfeblong
+-
+g 1 mistyg:84,zarfeblong:67
