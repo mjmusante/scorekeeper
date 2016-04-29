@@ -4,7 +4,7 @@ from __future__ import print_function
 
 import sys
 
-with open("results.txt", "r") as f:
+with open("scores.txt", "r") as f:
     lines = f.readlines()
 
 class Player:
@@ -94,7 +94,7 @@ lfmt = "  %%-%ss" % maxlen
 pad = 15 - maxlen  # 15 magic number comes from 5 games * 3 spaces per game
 plist = sorted(player, key=lambda s: s.lower())
 
-print("Results:")
+print("Game Results:")
 print(fmt % "", end="")
 for p in plist:
     print(lfmt % p, end="")
@@ -114,7 +114,7 @@ for p in plist:
 
 print("---")
 
-print("Match wins:")
+print("Match Results:")
 for p in plist:
     wins = 0
     losses = 0
@@ -141,7 +141,7 @@ for p in plist:
 
 print("---")
 
-print("Total points:")
+print("Total Points:")
 for p in plist:
     print(lfmt % p, end="")
     print(" %10s points for / %10s points against" % \
