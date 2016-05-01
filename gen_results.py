@@ -38,12 +38,14 @@ class Player:
             self.vs_opponent[op] += 1
 
     def fmt_result(self, oplist):
+        won = 0
         for i in oplist:
             if i in self.opponent:
                 for score in self.opponent[i]:
                     if score:
                         if self.won_game(score):
                             print("1  ", end="")
+                            won += 1
                         else:
                             print("0  ", end="")
                     else:
@@ -51,7 +53,7 @@ class Player:
             else:
                 print("               ", end="")
             print("| ", end="")
-        print("")
+        print("%2s" % won)
 
 #
 # Format of the file we're reading in:
@@ -113,7 +115,7 @@ print(fmt % "", end="")
 print(" ", end="")
 for p in plist:
     print(" 1  2  3  4  5  |", end="")
-print("")
+print(" Total Games Won")
 
 for p in plist:
     print(fmt % p, end="")
