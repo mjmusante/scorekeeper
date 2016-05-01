@@ -7,3 +7,5 @@ p zarfeblong
 -
 g 1 mistyg:84,zarfeblong:67
 g 2 mistyg:62,zarfeblong:89
+
+g 1 jczorkmid:78,zarfeblong:82
