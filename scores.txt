@@ -18,3 +18,5 @@ g 1 Tamsk:108,jczorkmid:51
 g 1 GoofAndAHalf:77,zarfeblong:131
 
 g 1 jczorkmid:67,GoofAndAHalf:91
+
+g 1 mistyg:78,Tamsk:99
