@@ -67,6 +67,9 @@ class Player:
 player = {}
 maxlen = 0
 for l in lines:
+    l = l.rstrip()
+    if not l:
+        continue
     v = l.split()
     if v[0] == "p":
         player[v[1]] = (Player(v[1]))
