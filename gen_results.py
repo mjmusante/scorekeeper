@@ -16,29 +16,34 @@ class Player:
         self.points_for = 0
         self.points_against = 0
 
-    def add_result(self, op, game, myscore, opscore):
+    def won_game(self, rslt):
+        sc1, sc2, turn = rslt
+        return (sc1 > sc2) or (sc1 == sc2 and turn == 2)
+
+    # op -> name of opponent
+    # game -> game number against this opponent
+    # myscore -> score for this player for this game
+    # opscore -> score for opponent for this game
+    # turn -> 1 if first player, 2 if second player
+    def add_result(self, op, game, myscore, opscore, turn):
         self.points_for += myscore
         self.points_against += opscore
         if op not in self.opponent:
             self.opponent[op] = [(), (), (), (), ()]
             self.vs_opponent[op] = 0
             self.games_vs[op] = 0
-        self.opponent[op][game - 1] = (myscore, opscore)
+        self.opponent[op][game - 1] = (myscore, opscore, turn)
         self.games_vs[op] += 1
-        if myscore > opscore:
-            self.vs_opponent[op] += 10
-        elif myscore == opscore:
-            self.vs_opponent[op] += 5
+        if self.won_game(self.opponent[op][game - 1]):
+            self.vs_opponent[op] += 1
 
     def fmt_result(self, oplist):
         for i in oplist:
             if i in self.opponent:
                 for score in self.opponent[i]:
                     if score:
-                        if score[0] > score[1]:
+                        if self.won_game(score):
                             print("1  ", end="")
-                        elif score[0] == score[1]:
-                            print("&frac12;  ", end="")
                         else:
                             print("0  ", end="")
                     else:
@@ -89,8 +94,8 @@ for l in lines:
             print("Player %s not defined" % p2[0])
             sys.exit(1)
 
-        player[p1[0]].add_result(p2[0], game, p1sc, p2sc)
-        player[p2[0]].add_result(p1[0], game, p2sc, p1sc)
+        player[p1[0]].add_result(p2[0], game, p1sc, p2sc, 1)
+        player[p2[0]].add_result(p1[0], game, p2sc, p1sc, 2)
 
 fmt = "%%%ss" % maxlen
 lfmt = "  %%-%ss" % maxlen
@@ -121,18 +126,15 @@ print("Match Results:")
 for p in plist:
     wins = 0
     losses = 0
-    ties = 0
     for op in player[p].vs_opponent:
         if player[p].games_vs[op] < 5:
             continue
         rslt = player[p].vs_opponent[op]
-        if rslt > 25:
+        if rslt > 2:
             wins += 1
-        elif rslt < 25:
+        elif rslt <= 2:
             losses += 1
-        else:
-            ties += 1
-    if wins > 0 or ties > 0 or losses > 0:
+    if wins > 0 or losses > 0:
         print("%s%s: " % (" " * (pad - len(p)), p), end="")
         match = list()
 
@@ -143,8 +145,6 @@ for p in plist:
 
         if wins > 0:
             match.append(sing_or_pl(wins, "win", "wins"))
-        if ties > 0:
-            match.append(sing_or_pl(ties, "tie", "ties"))
         if losses > 0:
             match.append(sing_or_pl(losses, "loss", "losses"))
         print(", ".join(match))
