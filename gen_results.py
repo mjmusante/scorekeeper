@@ -50,6 +50,8 @@ class Player:
                             print("0  ", end="")
                     else:
                         print("   ", end="")
+            elif i == self.name:
+                print("-  -  -  -  -  ", end="")
             else:
                 print("               ", end="")
             print("| ", end="")
