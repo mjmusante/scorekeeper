@@ -14,6 +14,7 @@ g 1 jczorkmid:78,zarfeblong:82
 
 g 1 jczorkmid:121,mistyg:76
 g 2 jczorkmid:79,mistyg:70
+g 3 jczorkmid:51,mistyg:74
 
 g 1 Tamsk:108,jczorkmid:51
 
