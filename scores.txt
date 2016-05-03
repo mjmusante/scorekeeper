@@ -9,12 +9,14 @@ g 1 mistyg:84,zarfeblong:67
 g 2 mistyg:62,zarfeblong:89
 g 3 mistyg:76,zarfeblong:76
 g 4 mistyg:57,zarfeblong:111
+g 5 mistyg:75,zarfeblong:77
 
 g 1 jczorkmid:78,zarfeblong:82
 
 g 1 jczorkmid:121,mistyg:76
 g 2 jczorkmid:79,mistyg:70
 g 3 jczorkmid:51,mistyg:74
+g 4 jczorkmid:96,mistyg:79
 
 g 1 Tamsk:108,jczorkmid:51
 g 2 Tamsk:88,jczorkmid:67
