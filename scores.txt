@@ -37,5 +37,6 @@ g 1 jczorkmid:67,GoofAndAHalf:91
 g 1 mistyg:83,sgranade:93
 
 g 1 mistyg:78,Tamsk:99
+g 2 mistyg:70,Tamsk:83
 
 g 1 jczorkmid:63,zarfeblong:109
