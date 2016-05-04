@@ -5,38 +5,65 @@ p sgranade
 p Tamsk
 p zarfeblong
 -
+
+# GoofAndAHalf vs jczorkmid
+g 1 jczorkmid:67,GoofAndAHalf:91
+
+# GoofAndAHalf vs mistyg
+g 1 GoofAndAHalf:69,mistyg:71
+
+# GoofAndAHalf vs sgranade
+
+# GoofAndAHalf vs Tamsk
+g 1 Tamsk:75,GoofAndAHalf:67
+
+# GoofAndAHalf vs zarfeblong
+g 1 GoofAndAHalf:77,zarfeblong:131
+g 2 GoofAndAHalf:75,zarfeblong:62
+
+# jczorkmid vs mistyg
+g 1 jczorkmid:121,mistyg:76
+g 2 jczorkmid:79,mistyg:70
+g 3 jczorkmid:51,mistyg:74
+g 4 jczorkmid:96,mistyg:79
+
+# jczorkmid vs sgranade
+
+# jczorkmid vs Tamsk
+g 1 Tamsk:108,jczorkmid:51
+g 2 Tamsk:88,jczorkmid:67
+
+# jczorkmid vs zarfeblong
+g 1 jczorkmid:78,zarfeblong:82
+g 2 jczorkmid:63,zarfeblong:109
+
+# mistyg vs sgranade
+g 1 mistyg:83,sgranade:93
+
+# mistyg vs Tamsk
+g 1 mistyg:78,Tamsk:99
+g 2 mistyg:70,Tamsk:83
+
+# mistyg vs zarfeblong
 g 1 mistyg:84,zarfeblong:67
 g 2 mistyg:62,zarfeblong:89
 g 3 mistyg:76,zarfeblong:76
 g 4 mistyg:57,zarfeblong:111
 g 5 mistyg:75,zarfeblong:77
 
-g 1 jczorkmid:78,zarfeblong:82
-
-g 1 jczorkmid:121,mistyg:76
-g 2 jczorkmid:79,mistyg:70
-g 3 jczorkmid:51,mistyg:74
-g 4 jczorkmid:96,mistyg:79
-
-g 1 Tamsk:108,jczorkmid:51
-g 2 Tamsk:88,jczorkmid:67
-
-g 1 Tamsk:75,GoofAndAHalf:67
-
+# sgranade vs Tamsk
 g 1 Tamsk:68,sgranade:53
 
+# sgranade vs zarfeblong
+
+# Tamsk vs zarfeblong
 g 1 zarfeblong:67,Tamsk:71
 
-g 1 GoofAndAHalf:77,zarfeblong:131
-g 2 GoofAndAHalf:75,zarfeblong:62
 
-g 1 GoofAndAHalf:69,mistyg:71
 
-g 1 jczorkmid:67,GoofAndAHalf:91
 
-g 1 mistyg:83,sgranade:93
 
-g 1 mistyg:78,Tamsk:99
-g 2 mistyg:70,Tamsk:83
 
-g 1 jczorkmid:63,zarfeblong:109
+
+
+
