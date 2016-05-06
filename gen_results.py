@@ -29,10 +29,15 @@ class Player:
         self.points_for += myscore
         self.points_against += opscore
         if op not in self.opponent:
-            self.opponent[op] = [(), (), (), (), ()]
+            self.opponent[op] = [None, None, None, None, None]
             self.vs_opponent[op] = 0
             self.games_vs[op] = 0
-        self.opponent[op][game - 1] = (myscore, opscore, turn)
+        if self.opponent[op][game - 1] is None:
+            self.opponent[op][game - 1] = (myscore, opscore, turn)
+        else:
+            print("ERROR: Overwriting %s vs %s, game %s" %
+                    (self.name, op, game), file=sys.stderr)
+            sys.exit(1)
         self.games_vs[op] += 1
         if self.won_game(self.opponent[op][game - 1]):
             self.vs_opponent[op] += 1
