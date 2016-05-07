@@ -63,3 +63,4 @@ g 1 Tamsk:68,sgranade:53
 # Tamsk vs zarfeblong
 g 1 zarfeblong:67,Tamsk:71
 g 2 Tamsk:76,zarfeblong:76
+g 3 Tamsk:68,zarfeblong:73
