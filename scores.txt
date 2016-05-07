@@ -18,7 +18,7 @@ g 2 GoofAndAHalf:68,mistyg:71
 
 # GoofAndAHalf vs Tamsk
 g 1 Tamsk:75,GoofAndAHalf:67
-g 2 Tamsk:60,GoofAndAHalf:69
+g 2 Tamsk:70,GoofAndAHalf:69
 
 # GoofAndAHalf vs zarfeblong
 g 1 GoofAndAHalf:77,zarfeblong:131
