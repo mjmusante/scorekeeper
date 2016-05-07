@@ -12,6 +12,7 @@ g 2 jczorkmid:63,GoofAndAHalf:74
 
 # GoofAndAHalf vs mistyg
 g 1 GoofAndAHalf:69,mistyg:71
+g 2 GoofAndAHalf:68,mistyg:71
 
 # GoofAndAHalf vs sgranade
 
@@ -45,6 +46,7 @@ g 1 mistyg:83,sgranade:93
 # mistyg vs Tamsk
 g 1 mistyg:78,Tamsk:99
 g 2 mistyg:70,Tamsk:83
+g 3 mistyg:72,Tamsk:91
 
 # mistyg vs zarfeblong
 g 1 mistyg:84,zarfeblong:67
