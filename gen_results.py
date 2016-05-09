@@ -44,10 +44,12 @@ class Player:
 
     def fmt_result(self, oplist):
         won = 0
+        total = 0
         for i in oplist:
             if i in self.opponent:
                 for score in self.opponent[i]:
                     if score:
+                        total += 1
                         if self.won_game(score):
                             print("1  ", end="")
                             won += 1
@@ -60,7 +62,7 @@ class Player:
             else:
                 print("               ", end="")
             print("| ", end="")
-        print("%2s" % won)
+        print("%2s/%s" % (won, total))
 
 #
 # Format of the file we're reading in:
