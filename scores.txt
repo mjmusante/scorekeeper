@@ -44,6 +44,8 @@ g 3 jczorkmid:85,zarfeblong:87
 
 # mistyg vs sgranade
 g 1 mistyg:83,sgranade:93
+g 2 mistyg:76,sgranade:89
+g 3 mistyg:64,sgranade:96
 
 # mistyg vs Tamsk
 g 1 mistyg:78,Tamsk:99
