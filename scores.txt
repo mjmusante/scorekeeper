@@ -52,6 +52,7 @@ g 3 mistyg:64,sgranade:96
 g 1 mistyg:78,Tamsk:99
 g 2 mistyg:70,Tamsk:83
 g 3 mistyg:72,Tamsk:91
+g 4 mistyg:77,Tamsk:56
 
 # mistyg vs zarfeblong
 g 1 mistyg:84,zarfeblong:67
