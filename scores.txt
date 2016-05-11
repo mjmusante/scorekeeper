@@ -20,6 +20,7 @@ g 1 sgranade:58,GoofAndAHalf:68
 # GoofAndAHalf vs Tamsk
 g 1 Tamsk:75,GoofAndAHalf:67
 g 2 Tamsk:70,GoofAndAHalf:69
+g 3 Tamsk:98,GoofAndAHalf:77
 
 # GoofAndAHalf vs zarfeblong
 g 1 GoofAndAHalf:77,zarfeblong:131
