@@ -74,4 +74,5 @@ g 1 sgranade:76,zarfeblong:94
 g 1 zarfeblong:67,Tamsk:71
 g 2 Tamsk:76,zarfeblong:76
 g 3 Tamsk:68,zarfeblong:73
-g 4 Tamsk:69,zarfeblong:82
+g 4 Tamsk:77,zarfeblong:64
+g 5 Tamsk:69,zarfeblong:82
