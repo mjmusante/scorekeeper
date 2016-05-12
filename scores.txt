@@ -28,6 +28,7 @@ g 1 GoofAndAHalf:77,zarfeblong:131
 g 2 GoofAndAHalf:75,zarfeblong:62
 g 3 GoofAndAHalf:63,zarfeblong:68
 g 4 GoofAndAHalf:98,zarfeblong:96
+g 5 GoofAndAHalf:85,zarfeblong:61
 
 # jczorkmid vs mistyg
 g 1 jczorkmid:121,mistyg:76
