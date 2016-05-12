@@ -13,6 +13,7 @@ g 2 jczorkmid:63,GoofAndAHalf:74
 # GoofAndAHalf vs mistyg
 g 1 GoofAndAHalf:69,mistyg:71
 g 2 GoofAndAHalf:68,mistyg:71
+g 3 GoofAndAHalf:58,mistyg:62
 
 # GoofAndAHalf vs sgranade
 g 1 sgranade:58,GoofAndAHalf:68
