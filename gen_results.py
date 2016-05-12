@@ -99,10 +99,10 @@ for l in lines:
         p2sc = int(p2[1])
 
         if p1[0] not in player:
-            print("Player %s not defined" % p1[0])
+            print("ERROR: Player %s not defined" % p1[0], file=sys.stderr)
             sys.exit(1)
         if p2[0] not in player:
-            print("Player %s not defined" % p2[0])
+            print("ERROR: Player %s not defined" % p2[0], file=sys.stderr)
             sys.exit(1)
 
         player[p1[0]].add_result(p2[0], game, p1sc, p2sc, 1)
