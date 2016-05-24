@@ -16,15 +16,18 @@ g 1 GoofAndAHalf:69,mistyg:71
 g 2 GoofAndAHalf:68,mistyg:71
 g 3 GoofAndAHalf:58,mistyg:62
 g 4 GoofAndAHalf:60,mistyg:55
+g 5 GoofAndAHalf:107,mistyg:47
 
 # GoofAndAHalf vs sgranade
 g 1 sgranade:58,GoofAndAHalf:68
+g 2 sgranade:71,GoofAndAHalf:83
 
 # GoofAndAHalf vs Tamsk
 g 1 Tamsk:75,GoofAndAHalf:67
 g 2 Tamsk:70,GoofAndAHalf:69
 g 3 Tamsk:98,GoofAndAHalf:77
 g 4 Tamsk:63,GoofAndAHalf:53
+g 5 Tamsk:58,GoofAndAHalf:53
 
 # GoofAndAHalf vs zarfeblong
 g 1 GoofAndAHalf:77,zarfeblong:131
@@ -47,6 +50,7 @@ g 1 jczorkmid:95,sgranade:70
 g 1 Tamsk:108,jczorkmid:51
 g 2 Tamsk:88,jczorkmid:67
 g 3 Tamsk:84,jczorkmid:58
+g 4 Tamsk:81,jczorkmid:73
 
 # jczorkmid vs zarfeblong
 g 1 jczorkmid:78,zarfeblong:82
