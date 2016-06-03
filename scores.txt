@@ -45,12 +45,14 @@ g 5 jczorkmid:68,mistyg:61
 
 # jczorkmid vs sgranade
 g 1 jczorkmid:95,sgranade:70
+g 2 jczorkmid:78,sgranade:75
 
 # jczorkmid vs Tamsk
 g 1 Tamsk:108,jczorkmid:51
 g 2 Tamsk:88,jczorkmid:67
 g 3 Tamsk:84,jczorkmid:58
 g 4 Tamsk:81,jczorkmid:73
+g 5 Tamsk:100,jczorkmid:62
 
 # jczorkmid vs zarfeblong
 g 1 jczorkmid:78,zarfeblong:82
