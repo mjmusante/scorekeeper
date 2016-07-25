@@ -25,6 +25,7 @@ g 1 sgranade:58,GoofAndAHalf:68
 g 2 sgranade:71,GoofAndAHalf:83
 g 3 sgranade:87,GoofAndAHalf:83
 g 4 sgranade:49,GoofAndAHalf:77
+g 5 sgranade:87,GoofAndAHalf:56
 
 # GoofAndAHalf vs Tamsk
 g 1 Tamsk:75,GoofAndAHalf:67
