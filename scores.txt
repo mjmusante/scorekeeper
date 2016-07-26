@@ -52,6 +52,7 @@ g 5 jczorkmid:68,mistyg:61
 g 1 jczorkmid:95,sgranade:70
 g 2 jczorkmid:78,sgranade:75
 g 3 jczorkmid:52,sgranade:75
+g 4 jczorkmid:64,sgranade:85
 
 # jczorkmid vs Tamsk
 g 1 Tamsk:108,jczorkmid:51
