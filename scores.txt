@@ -66,6 +66,7 @@ g 1 jczorkmid:78,zarfeblong:82
 g 2 jczorkmid:63,zarfeblong:109
 g 3 jczorkmid:85,zarfeblong:87
 g 4 jczorkmid:71,zarfeblong:82
+g 5 jczorkmid:49,zarfeblong:64
 
 # mistyg vs sgranade
 g 1 mistyg:83,sgranade:93
